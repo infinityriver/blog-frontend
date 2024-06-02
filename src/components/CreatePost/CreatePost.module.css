@@ -1,0 +1,19 @@
+.Main {
+    background-color: none;
+    position: absolute;
+    width: 50%;
+    height: 65%;
+    background-color: none;
+    left: 30%;
+    top: 20%
+}
+
+.Card {
+    position: relative;
+    height: 100%;
+
+}
+
+.textA .CodeMirror {
+    background-color: yellow;
+}

@@ -1,0 +1,32 @@
+.MainLogin {
+    background-color: none;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    bottom: 0%;
+    left:10%;
+    display: grid;
+    grid-template-areas: 'i l';
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1%;
+}
+
+.imageBlock {
+    grid-area: i;
+    background-image: url('https://i.pinimg.com/564x/29/37/f7/2937f7b28a54ef1e9c378fe0d6563d2c.jpg');
+    border: solid 1px #00994C;
+    border-radius: 10px;
+}
+
+.loginBlock {
+    grid-area: l;
+    background-color: none;
+    border: solid 1px #00994C;
+    border-radius: 10px;
+    padding: 15%;
+}
+
+.TextField {
+    display: flex;
+    flex-direction: column;
+}

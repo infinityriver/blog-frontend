@@ -1,0 +1,15 @@
+.Main {
+    background-color: none;
+    position: absolute;
+    width: 18%;
+    height: 25%;
+    background-color: none;
+    right: 10%;
+    top: 20%
+}
+
+.Card {
+    position: relative;
+    height: 100%;
+
+}
